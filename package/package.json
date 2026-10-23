@@ -1,0 +1,38 @@
+{
+  "name": "@freerdp-bridge/express",
+  "version": "0.2.4",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./browser": {
+      "types": "./dist/browser.d.ts",
+      "import": "./dist/browser.js"
+    }
+  },
+  "dependencies": {
+    "@types/express": "5.0.6",
+    "@freerdp-bridge/http": "0.2.4"
+  },
+  "peerDependencies": {
+    "express": "^5.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SensNyaha/freerdp-bridge-express.git"
+  },
+  "scripts": {
+    "build": "tsc -b"
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "schema": 1,
+  "kind": "express",
+  "version": "0.2.4",
+  "repository": "SensNyaha/freerdp-bridge-express",
+  "upstream": {
+    "tag": "v0.2.4",
+    "commit": "4b018fc406af148dbde8651282149d32b507a4f6",
+    "acceptance": "docs/ITERATION_438.md"
+  },
+  "packages": [
+    {
+      "name": "@freerdp-bridge/express",
+      "version": "0.2.4",
+      "archive": "freerdp-bridge-express-0.2.4.tgz",
+      "bytes": 4988,
+      "sha256": "07890806943fd92a923aeb7a95f4256bb8fd02b36637ef0390c34c56bc8c6b27",
+      "integrity": "sha512-ljdu+yre/s2Is2Dl5gxhp2i3UKwhBPV4k16EWD7Ibod6o7LoGzqTERhbyCUWwEgLCfP5ZfEYKkOMYIgWjTs3iQ=="
+    }
+  ],
+  "sources": [
+    {
+      "path": ".gitattributes",
+      "bytes": 74,
+      "sha256": "2d06373e2d253e5bbcdea0d6dc6f46e40e8d3c5f1c34c0fb9cb41c6478ed3827"
+    },
+    {
+      "path": ".github/workflows/npm-publish.yml",
+      "bytes": 2156,
+      "sha256": "88e4755e4081862a13c31a7fb634d09286e8f7fd176084694b8ad17152c05d22"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 67,
+      "sha256": "c704398f54f3f51943906556dd3a7f43bcd4cac627e32268692866d940199d30"
+    },
+    {
+      "path": "DELIVERY.md",
+      "bytes": 1024,
+      "sha256": "ac19c73db1168bad449942ea09ac082f77e8d38d8b931c9c6914d76a292f30c3"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1092,
+      "sha256": "f3a60bfe72b610332091b402b6ae0868f5a79ff41b3ddab2afb1b8966c7328e0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1528,
+      "sha256": "57324dd9b43832326467656af1e3b09edb7eff834e6b8736a9478eb776c7e372"
+    },
+    {
+      "path": "docs/EXPRESS_PLUGIN.md",
+      "bytes": 5022,
+      "sha256": "0949010542f0e49fdc5b364cd8e182a55ddd385151893b3ee4da72d6e54604a1"
+    },
+    {
+      "path": "docs/EXPRESS_USAGE.md",
+      "bytes": 15955,
+      "sha256": "10316577a8ae9fccf49a8d2d0df51f8540b8ceb1046ae39c1d8e2cd9bc12fa44"
+    },
+    {
+      "path": "docs/FRAMEWORK_SELECTION.md",
+      "bytes": 5823,
+      "sha256": "a826029a9bd03321c3689d40fc30f2f4818dc253668a4bf403270648be197584"
+    },
+    {
+      "path": "docs/HOST_AUTHENTICATION.md",
+      "bytes": 6395,
+      "sha256": "204560feb77d0e01bc8f6ff2b0a55ca8f3d4b9bd771b8a0e7fa8d0d83ebf7220"
+    },
+    {
+      "path": "docs/ITERATION_438.md",
+      "bytes": 7119,
+      "sha256": "6d1b79e79956a5fa6cb9f08ada834c2d137fb920f1fd3094e5784a6ec8ef2343"
+    },
+    {
+      "path": "docs/NATIVE_NPM_RUNTIME.md",
+      "bytes": 13041,
+      "sha256": "180bb6eb84c1e4ebc1a9a6d94b7002a3757e92c2d5a1be57f5f4f876b2510d04"
+    },
+    {
+      "path": "docs/NPM_PUBLISHING.md",
+      "bytes": 20179,
+      "sha256": "ac6c066c3375a5396340e62c213cf0c7085cfd183c5e338879971eff66c15d24"
+    },
+    {
+      "path": "docs/NPM_TRUSTED_PUBLISHING.md",
+      "bytes": 7804,
+      "sha256": "735a17a5d5660a7b629ac20285fec75bfc35e52d6227c734a5a8cb6d4f288c42"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 64046,
+      "sha256": "0b45bde47f9c3cb60646f0757a5e0b70ac47a025aac90075384889aa6d83dc9e"
+    },
+    {
+      "path": "package.json",
+      "bytes": 731,
+      "sha256": "343eebc86d145efd01651df8c5e3283d007762204e4135b8f40df0c5b4b0097f"
+    },
+    {
+      "path": "package/LICENSE",
+      "bytes": 1092,
+      "sha256": "f3a60bfe72b610332091b402b6ae0868f5a79ff41b3ddab2afb1b8966c7328e0"
+    },
+    {
+      "path": "package/README.md",
+      "bytes": 4437,
+      "sha256": "a47281c9cf84c40ac168c43bfac83b2f60f87a92388d62564dd301ac5e80c519"
+    },
+    {
+      "path": "package/package.json",
+      "bytes": 714,
+      "sha256": "a4e3a79f88fe70d0bfac80fe3a4e29e90709a535a50a902477793be1a7946d52"
+    },
+    {
+      "path": "package/src/browser.ts",
+      "bytes": 74,
+      "sha256": "49c5da42ac3ff7845a1232703fafda1a96afe740f08046b34a30d6c2850f6c81"
+    },
+    {
+      "path": "package/src/index.ts",
+      "bytes": 458,
+      "sha256": "4a2cada8d787caa6cff2f1afda5cf9929d4761230b5126c1840b0a47d845089a"
+    },
+    {
+      "path": "package/src/middleware.ts",
+      "bytes": 1945,
+      "sha256": "12104988aab75d288b44b6fbdf3fd0f497da62b33879e7c3dfb9a282245ea63b"
+    },
+    {
+      "path": "package/tsconfig.json",
+      "bytes": 142,
+      "sha256": "df1689060b51adc10dbab14bc6d7c8c741a783c7cc3040077d60495076c383f8"
+    },
+    {
+      "path": "release-tools/compare-compiled.mjs",
+      "bytes": 3165,
+      "sha256": "adf68fd8b9ce045dab11c030a9c9ed31d2b054aa2a9e5ea37b2f778bf2af47ac"
+    },
+    {
+      "path": "release-tools/fetch.mjs",
+      "bytes": 3127,
+      "sha256": "e238c939b435902b51c1dc7a1cdf450b2cf196299b14b36a0d722d8afb8c9a29"
+    },
+    {
+      "path": "release-tools/guards.test.mjs",
+      "bytes": 18301,
+      "sha256": "190498433fa24be8f7bcb5c02145a8548728509939601756c5f2420145618622"
+    },
+    {
+      "path": "release-tools/manifest.mjs",
+      "bytes": 9471,
+      "sha256": "6179d6589b74513afcc597f6ac194bbecd76d020698d10d77d2b360f48bb281a"
+    },
+    {
+      "path": "release-tools/native-smoke.mjs",
+      "bytes": 4859,
+      "sha256": "ed6efa817653e01bcd77b86769d6b6e18dc29ff011172340c656c7e3ec130761"
+    },
+    {
+      "path": "release-tools/publish.mjs",
+      "bytes": 5756,
+      "sha256": "74645f4586b941c5eb0ef30085718bed7a9d1c1b0d150897f9d8c5b624e02593"
+    },
+    {
+      "path": "release-tools/run.mjs",
+      "bytes": 1798,
+      "sha256": "003c2d8a3c6054d2f4efd6365b1919c63678ecc9b2f1a9c5abc742d7ce7855e7"
+    },
+    {
+      "path": "tests/consumer.test.mjs",
+      "bytes": 29825,
+      "sha256": "5d4e0bc4daf39336204133915de2625dd3ac3cf1d421ada15e105f400f6fae37"
+    },
+    {
+      "path": "tests/consumer.ts",
+      "bytes": 1588,
+      "sha256": "6f590e53f0800126bece2659f088af698a1840f13048aa5643feadc554333346"
+    },
+    {
+      "path": "tests/session-worker.mjs",
+      "bytes": 2437,
+      "sha256": "80480b905fdf461331767b034a6504b6d0f1e1d1a899ab3567f25255e54b82bc"
+    },
+    {
+      "path": "tests/tls-fixture.mjs",
+      "bytes": 4207,
+      "sha256": "7696767926adcf04fedccd5f78b814487777031552817f5516bcf409f91f14cd"
+    },
+    {
+      "path": "tests/tsconfig.json",
+      "bytes": 221,
+      "sha256": "21fa9f4c133b3ff1d7caeba5d3eef5d668fb3ebf18f214025ef30e34887add09"
+    },
+    {
+      "path": "tsconfig.base.json",
+      "bytes": 443,
+      "sha256": "76de5dc4907f4adf925a85fbc54d4c138f7b3cbd3327823c82cdb0ca604c1bbb"
+    }
+  ]
+}
