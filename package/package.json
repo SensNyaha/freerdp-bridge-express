@@ -1,6 +1,6 @@
 {
   "name": "@freerdp-bridge/express",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "type": "module",
   "license": "MIT",
   "engines": {
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@types/express": "5.0.6",
-    "@freerdp-bridge/http": "0.3.0"
+    "@freerdp-bridge/http": "0.4.0"
   },
   "peerDependencies": {
     "express": "^5.3.0"
