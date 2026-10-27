@@ -16,7 +16,7 @@ interface RdpBridgeExpressHandle {
 }
 ```
 
-Options are the [HTTP adapter options](https://github.com/SensNyaha/freerdp-browser-bridge/blob/v0.4.0/docs/NODE_HTTP_PLUGIN.md): mandatory explicit
+Options are the [HTTP adapter options](https://github.com/SensNyaha/freerdp-browser-bridge/blob/v0.5.0/docs/NODE_HTTP_PLUGIN.md): mandatory explicit
 non-root `prefix`, verified `authenticate`, worker/runtime configuration,
 `allowedOrigins`, session policies, logging destination and
 `upgradeMode: 'automatic' | 'manual'`. The adapter delegates to the same HTTP
