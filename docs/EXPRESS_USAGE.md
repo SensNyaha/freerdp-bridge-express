@@ -2,12 +2,12 @@
 
 В 0.5.0 доступен отдельно включаемый буфер изображений. Именованные PNG-профили,
 явные действия браузера, общие лимиты и ограничения описаны в
-[image clipboard](https://github.com/SensNyaha/freerdp-browser-bridge/blob/1494dc8d8748c55169181f735d9b7d693ee9ba57/docs/CLIPBOARD_BROWSER.md#versioned-050-image-application-acceptance).
+[image clipboard](https://github.com/SensNyaha/freerdp-browser-bridge/blob/v0.6.0/docs/CLIPBOARD_BROWSER.md#versioned-050-image-application-acceptance).
 
 Адаптер принят в **0.2.4**; текущий набор **0.5.0** опубликован в npm и GitHub.
 Все десять согласованных
 пакетов имеют принятый integrity; чистые Windows/Linux consumers проходят
-strict TypeScript и 11/11 проверок. [Публикация](https://github.com/SensNyaha/freerdp-browser-bridge/blob/1494dc8d8748c55169181f735d9b7d693ee9ba57/docs/RELEASE_0_5_0.md#public-delivery),
+strict TypeScript и 11/11 проверок. [Публикация](https://github.com/SensNyaha/freerdp-browser-bridge/blob/v0.6.0/docs/RELEASE_0_5_0.md#public-delivery),
 [release-приёмка](ITERATION_438.md), [контракт](EXPRESS_PLUGIN.md).
 
 ## Установка и структура приложения
@@ -145,7 +145,7 @@ const created = await response.json();
 tokens. Они не являются ни bearer приложения, ни RDP паролем. Для нового
 присоединения получите свежие токены по API, не используйте потраченные.
 Маршруты, record schemas и binary media контракт:
-[PROTOCOL.md](https://github.com/SensNyaha/freerdp-browser-bridge/blob/1494dc8d8748c55169181f735d9b7d693ee9ba57/PROTOCOL.md). Возвращаемая ошибка должна отображаться без
+[PROTOCOL.md](https://github.com/SensNyaha/freerdp-browser-bridge/blob/v0.6.0/PROTOCOL.md). Возвращаемая ошибка должна отображаться без
 вывода исходных секретных payload в console/error reporting.
 
 Для reference browser harness используйте экспорт установленного пакета:
