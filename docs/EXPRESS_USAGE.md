@@ -2,16 +2,16 @@
 
 В 0.5.0 доступен отдельно включаемый буфер изображений. Именованные PNG-профили,
 явные действия браузера, общие лимиты и ограничения описаны в
-[image clipboard](https://github.com/SensNyaha/freerdp-browser-bridge/blob/v0.7.0/docs/CLIPBOARD_BROWSER.md#versioned-050-image-application-acceptance).
+[image clipboard](https://github.com/SensNyaha/freerdp-browser-bridge/blob/df1de43da3ecd16293b94330fb7b3ff058d99c07/docs/CLIPBOARD_BROWSER.md#versioned-050-image-application-acceptance).
 
 В **0.6.0** управляемые файлы и RDP-диски включаются доверенной настройкой
 `sessions.files`. Файловый Ctrl+C/Ctrl+V остаётся отдельной задачей
-(`clipboardFiles: false`). [Файловый API и настройка](https://github.com/SensNyaha/freerdp-browser-bridge/blob/v0.7.0/docs/FILES.md).
+(`clipboardFiles: false`). [Файловый API и настройка](https://github.com/SensNyaha/freerdp-browser-bridge/blob/df1de43da3ecd16293b94330fb7b3ff058d99c07/docs/FILES.md).
 
 Адаптер принят в **0.2.4**; текущий набор **0.6.0** опубликован в npm и GitHub.
 Все десять согласованных
 пакетов имеют принятый integrity; чистые Windows/Linux consumers проходят
-strict TypeScript и 11/11 проверок. [Публикация](https://github.com/SensNyaha/freerdp-browser-bridge/blob/v0.7.0/docs/RELEASE_0_6_0.md#public-delivery),
+strict TypeScript и 11/11 проверок. [Публикация](https://github.com/SensNyaha/freerdp-browser-bridge/blob/df1de43da3ecd16293b94330fb7b3ff058d99c07/docs/RELEASE_0_6_0.md#public-delivery),
 [release-приёмка](ITERATION_438.md), [контракт](EXPRESS_PLUGIN.md).
 
 ## Установка и структура приложения
@@ -20,7 +20,7 @@ strict TypeScript и 11/11 проверок. [Публикация](https://gith
 Установка в существующем проекте:
 
 ```sh
-npm install express@5.3.0 @freerdp-bridge/express@0.6.0 @freerdp-bridge/runtime-linux-x64-gnu@0.6.0
+npm install express@5.3.0 @freerdp-bridge/express@0.7.0 @freerdp-bridge/runtime-linux-x64-gnu@0.7.0
 npm install --save-dev typescript@5.9.3 @types/node@24.10.0
 ```
 
@@ -31,7 +31,7 @@ npm install --save-dev typescript@5.9.3 @types/node@24.10.0
 `"type": "module"`. Не копируйте workspace-исходники в `node_modules`.
 
 На Windows x64 вместо Linux runtime явно установите
-`@freerdp-bridge/runtime-win32-x64@0.6.0`. На Windows x64 и Linux x64 glibc
+`@freerdp-bridge/runtime-win32-x64@0.7.0`. На Windows x64 и Linux x64 glibc
 `resolveNativeRuntime()` выбирает уже установленный пакет нужной платформы,
 проверяет версию, FreeRDP pin, inventory и hashes. Resolver не скачивает runtime.
 Общие JS-пакеты http/api/node/config/protocol устанавливаются автоматически
@@ -149,7 +149,7 @@ const created = await response.json();
 tokens. Они не являются ни bearer приложения, ни RDP паролем. Для нового
 присоединения получите свежие токены по API, не используйте потраченные.
 Маршруты, record schemas и binary media контракт:
-[PROTOCOL.md](https://github.com/SensNyaha/freerdp-browser-bridge/blob/v0.7.0/PROTOCOL.md). Возвращаемая ошибка должна отображаться без
+[PROTOCOL.md](https://github.com/SensNyaha/freerdp-browser-bridge/blob/df1de43da3ecd16293b94330fb7b3ff058d99c07/PROTOCOL.md). Возвращаемая ошибка должна отображаться без
 вывода исходных секретных payload в console/error reporting.
 
 Для reference browser harness используйте экспорт установленного пакета:
